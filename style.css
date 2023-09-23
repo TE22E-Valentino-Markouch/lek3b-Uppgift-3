@@ -1,0 +1,82 @@
+#top {
+  display: flex;
+  flex-direction: column;
+  background-color: #35424a;
+  border-top: 3px solid yellow;
+  border-bottom: 3px solid yellow;
+  text-align: center;
+}
+
+#top h1 {
+  color: white;
+  margin-top: 30px;
+}
+
+#top .länkar {
+  margin: 10px;
+}
+
+#top a {
+  color: white;
+  margin: 0 15px;
+}
+
+#övre {
+  display: flex;
+  flex-direction: column;
+  background-image: url(showcase\ \(1\).jpg);
+  background-repeat: no-repeat;
+  align-items: center;
+  border-bottom: 3px solid #e8491d;
+  background-color: #35424a;
+}
+
+#övre h1 {
+  color: white;
+  font-size: 48px;
+}
+
+#övre p {
+  color: white;
+  font-size: 18px;
+  width: 75%;
+  text-align: center;
+}
+
+#mellan {
+  background-color: #35424a;
+  color: white;
+  align-items: center;
+  text-align: center;
+  height: 100pxs;
+  border-top: 3px solid yellow;
+  border-bottom: 3px solid yellow;
+}
+
+#under {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid yellow;
+  padding-top: 15px;
+}
+
+.box p {
+  text-align: center;
+}
+
+#sidfot {
+  background-color: #e8491d;
+  text-align: center;
+  /* height: 50px; */
+}
+
+#sidfot p {
+  margin: 0;
+  padding: 20px 0;
+}
